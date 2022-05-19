@@ -41,7 +41,6 @@ const App = () => {
             <img
               src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
               alt={weather.weather[0].description}
-              alt=""
               className="city-icon"
             />
             <p>{weather.weather[0].description}</p>
